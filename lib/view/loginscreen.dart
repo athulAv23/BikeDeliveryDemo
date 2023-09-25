@@ -93,6 +93,8 @@ class LoginScreen extends StatelessWidget {
                                       Navigator.of(context).pushReplacement(
                                           MaterialPageRoute(
                                               builder: (_) => SignUpScreen()));
+                                              value.emailcontroller.clear();
+                                              value.passwordcontroller.clear();
                                     },
                                     child: boldtext("Sign Up", 16))
                               ],

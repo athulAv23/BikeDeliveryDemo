@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class SignUpScreen extends StatelessWidget {
-  SignUpScreen({super.key});
+ SignUpScreen({super.key});
 
   final GlobalKey<FormState> signupkey = GlobalKey();
   @override

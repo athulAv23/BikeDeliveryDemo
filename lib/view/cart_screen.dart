@@ -6,15 +6,15 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class CartScreen extends StatelessWidget {
-  CartScreen(
+  const CartScreen(
       {super.key,
       required this.name,
       required this.email,
       required this.phone});
 
-  String name;
-  String email;
-  String phone;
+  final String name;
+  final String email;
+  final String phone;
   @override
   Widget build(BuildContext context) {
     final logout = Provider.of<LoginController>(context, listen: false);
