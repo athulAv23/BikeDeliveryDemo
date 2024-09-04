@@ -96,7 +96,7 @@ class LoginScreen extends StatelessWidget {
                                               value.emailcontroller.clear();
                                               value.passwordcontroller.clear();
                                     },
-                                    child: boldtext("Sign-Up", 16))
+                                    child: boldtext("Sign Up", 16))
                               ],
                             )
                           ],
